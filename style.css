@@ -1,6 +1,17 @@
 @font-face {
     font-family: 'kurcalama aq';
     src: url("src/gizlilol.woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'kurcalama aq';
+    src: url("src/gizlilol-bold.woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'kurcalama aq';
+    src: url("src/gizlilol-medium.woff");
+    font-weight: 600;
 }
 
 body {
