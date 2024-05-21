@@ -1,3 +1,5 @@
+/* Saans */
+
 @font-face {
     font-family: 'Saans';
     src: url(./src/Saans-Light.woff) format('woff');
@@ -40,7 +42,35 @@
     font-weight: 900;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Saans';
+    src: url(./src/Saans-Light.woff) format('woff');
+    src: url(./src/Saans-Light.woff2) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* PP Mori */
+
+@font-face {
+    font-family: 'Mori';
+    src: url(./src/PPMori-Extralight.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mori';
+    src: url(./src/PPMori-Regular.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mori';
+    src: url(./src/PPMori-SemiBold.otf) format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
 
 body {
-    font-family: 'Saans';   
+    font-family: 'Mori';   
 }
