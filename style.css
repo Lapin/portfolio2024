@@ -1,19 +1,46 @@
 @font-face {
-    font-family: 'kurcalama aq';
-    src: url("src/gizlilol.woff");
+    font-family: 'Saans';
+    src: url(./src/Saans-Light.woff) format('woff');
+    src: url(./src/Saans-Light.woff2) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Saans';
+    src: url(./src/Saans-Regular.woff) format('woff');
+    src: url(./src/Saans-Regular.woff2) format('woff2');
     font-weight: 400;
+    font-style: normal;
 }
 @font-face {
-    font-family: 'kurcalama aq';
-    src: url("src/gizlilol-bold.woff");
-    font-weight: 700;
+    font-family: 'Saans';
+    src: url(./src/Saans-Medium.woff) format('woff');
+    src: url(./src/Saans-Medium.woff2) format('woff2');
+    font-weight: 500;
+    font-style: normal;
 }
 @font-face {
-    font-family: 'kurcalama aq';
-    src: url("src/gizlilol-medium.woff");
+    font-family: 'Saans';
+    src: url(./src/Saans-SemiBold.woff) format('woff');
+    src: url(./src/Saans-SemiBold.woff2) format('woff2');
     font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Saans';
+    src: url(./src/Saans-Bold.woff) format('woff');
+    src: url(./src/Saans-Bold.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Saans';
+    src: url(./src/Saans-Heavy.woff) format('woff2');
+    src: url(./src/Saans-Heavy.woff) format('woff');
+    font-weight: 900;
+    font-style: normal;
 }
 
 body {
-    font-family: 'kurcalama aq';   
+    font-family: 'Saans';   
 }
