@@ -8,7 +8,7 @@
       @apply font-light text-slate-800
   }
   a {
-    @apply text-xl underline decoration-1 decoration-pink-500	 underline-offset-4 tracking-normal;
+    @apply text-xl underline decoration-1	 underline-offset-4 tracking-normal;
   }
   .linkHead {
     @apply text-xl font-medium tracking-normal ;
