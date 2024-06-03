@@ -457,6 +457,8 @@ a {
   font-size: 1.25rem;
   line-height: 1.75rem;
   letter-spacing: 0em;
+  --tw-text-opacity: 1;
+  color: rgb(30 41 59 / var(--tw-text-opacity));
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
@@ -890,6 +892,11 @@ a {
   border-color: rgb(79 70 229 / var(--tw-divide-opacity));
 }
 
+.divide-indigo-800 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(55 48 163 / var(--tw-divide-opacity));
+}
+
 .divide-stone-300 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(214 211 209 / var(--tw-divide-opacity));
@@ -1071,6 +1078,11 @@ a {
 
 .tracking-tighter {
   letter-spacing: -0.05em;
+}
+
+.text-blue-700 {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
 }
 
 .text-indigo-800 {
