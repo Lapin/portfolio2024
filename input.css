@@ -4,14 +4,14 @@
 
 @layer base {
   html {
-      font-family: "Saans";
-      @apply font-light text-slate-800
+    font-family: "Saans";
+    @apply font-light text-slate-800;
   }
   a {
-    @apply text-xl underline decoration-1	 underline-offset-4 tracking-normal text-slate-800;
+    @apply text-xl tracking-normal underline decoration-1 underline-offset-4;
   }
   .linkHead {
-    @apply text-xl font-medium tracking-normal ;
+    @apply text-xl font-medium tracking-normal;
   }
 }
 
