@@ -662,14 +662,9 @@ a {
   border-style: dotted;
 }
 
-.divide-indigo-800 > :not([hidden]) ~ :not([hidden]) {
+.divide-orange-500 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
-  border-color: rgb(55 48 163 / var(--tw-divide-opacity));
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  border-color: rgb(249 115 22 / var(--tw-divide-opacity));
 }
 
 .bg-\[linear-gradient\(to_right\2c theme\(colors\.purple\.400\)\2c theme\(colors\.purple\.100\)\2c theme\(colors\.pink\.300\)\2c theme\(colors\.orange\.400\)\2c theme\(colors\.pink\.300\)\2c theme\(colors\.purple\.100\)\2c theme\(colors\.purple\.400\)\)\] {
@@ -746,9 +741,9 @@ a {
   letter-spacing: -0.05em;
 }
 
-.text-blue-700 {
+.text-neutral-700 {
   --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
+  color: rgb(64 64 64 / var(--tw-text-opacity));
 }
 
 .text-slate-300 {
